@@ -10,6 +10,8 @@ class pm2::create_app(
   $script          = 'lib/app.js',
   $args            = [],
   $env             = '',
+  $watch           = [],
+  $ignore_watch    = [],
   $install_root    = '/opt',
   $install_dir     = 'nodejs',
   $deamon_user     = 'nodejs')

@@ -41,6 +41,8 @@ Detailed Usage:
        path            => "/opt/nodejs/myapp",
        script          => "lib/app.js",              
        args            => ["arg1","arg2"],
+       watch           => [],
+       ignore_watch    => [],
        env             => '{ "env.NODE_ENV" : "test" }',
        install_root    => '/opt',
        install_dir     => 'nodejs',
